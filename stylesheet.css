@@ -2,15 +2,23 @@
   overflow:hidden;
 }
 
-.slide.Geographist-top-image {
+.slide .Geographist-top-image {
   animation: bgAnime 16s infinite;
 }
 
-.slide.image1 {
+.slide .src1 {
   background-image:url(Geographist-top-image1.jpg);
 }
 
-.slide.image2  {
+.slide .src2  {
   background-image:url(Geographist-top-image2.jpg);
-  animation-delay:8s;
+  animation-delay: 8s;
+}
+
+@keyframes bgAnime {
+   0% { opacity: 0; }
+   5% { opacity: 1; }
+  25% { opacity: 1; }
+  30% { opacity: 0; }
+ 100% { opacity: 0; }
 }
