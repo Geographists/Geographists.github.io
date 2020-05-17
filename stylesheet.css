@@ -1,4 +1,35 @@
 @charset "UTF-8";
-p {
-color:red;
+.box {
+  position   : relative;
+  max-width  : 400px;
+  height     : 250px;
+  margin     : auto;
+  overflow   : hidden;
+}
+
+.box .top_image {
+ position   : absolute;
+ top        : 0;
+ left       : 0;
+ bottom     : 0;
+ right      : 0;
+ opacity    : 0;
+ animation  : bgAnime 16s infinite;
+}
+
+.box .src1 {
+  background-image:url(Geographist-top-image1.jpg);
+}
+
+.box .src2  {
+  background-image:url(Geographist-top-image2.jpg);
+  animation-delay: 8s;
+}
+
+@keyframes bgAnime {
+   0% { opacity: 0; }
+   5% { opacity: 1; }
+  25% { opacity: 1; }
+  30% { opacity: 0; }
+ 100% { opacity: 0; }
 }
