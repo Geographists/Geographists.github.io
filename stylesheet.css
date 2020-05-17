@@ -6,9 +6,9 @@ h1 {
   color:red;
 }
 .box .src1 {
-  background-image:url(https://geographists.github.io/Geographist-top-image1.jpg);
+  background-image:url("https://geographists.github.io/Geographist-top-image1.jpg");
 }
 
 .box .src2  {
-  background-image:url(Geographist-top-image2.jpg);
+  background-image:url("Geographist-top-image2.jpg");
 }
