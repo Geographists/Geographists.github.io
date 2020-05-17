@@ -1,9 +1,4 @@
 @charset "UTF-8";
-.box .src1 {
-  background-image:url(Geographist-top-image1.jpg);
-}
-
-.box .src2  {
-  background-image:url(Geographist-top-image2.jpg);
-  animation-delay: 8s;
+p {
+  color:red;
 }
