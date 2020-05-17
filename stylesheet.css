@@ -2,13 +2,15 @@
 p {
   color:red;
 }
+
 h1 {
   color:red;
 }
-.box .src1 {
+
+.src1 {
   background-image:url(https://geographists.github.io/Geographist-top-image1.png);
 }
 
-.box .src2  {
+.src2  {
   background-image:url(Geographist-top-image2.png);
 }
