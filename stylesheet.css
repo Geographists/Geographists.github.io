@@ -1,4 +1,4 @@
-.slide {
+.box {
   position   : relative;
   max-width  : 400px;
   height     : 250px;
@@ -6,7 +6,7 @@
   overflow   : hidden;
 }
 
-.slide .top_image {
+.box .top_image {
  position   : absolute;
  top        : 0;
  left       : 0;
@@ -16,11 +16,11 @@
  animation  : bgAnime 16s infinite;
 }
 
-.slide .src1 {
+.box .src1 {
   background-image:url(Geographist-top-image1.jpg);
 }
 
-.slide .src2  {
+.box .src2  {
   background-image:url(Geographist-top-image2.jpg);
   animation-delay: 8s;
 }
