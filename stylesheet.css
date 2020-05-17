@@ -6,8 +6,8 @@
   overflow   : hidden;
 }
 
-.slide .Geographist-top-image {
-  position   : absolute;
+.slide .top_image {
+ position   : absolute;
  top        : 0;
  left       : 0;
  bottom     : 0;
@@ -32,4 +32,3 @@
   30% { opacity: 0; }
  100% { opacity: 0; }
 }
-
