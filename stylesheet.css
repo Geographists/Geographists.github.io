@@ -1,1 +1,16 @@
+.slide {
+  overflow:hidden;
+}
 
+.slide.Geographist-top-image {
+  animation: bgAnime 16s infinite;
+}
+
+.slide.image1 {
+  background-image:url(Geographist-top-image1.jpg);
+}
+
+.slide.image2  {
+  background-image:url(Geographist-top-image2.jpg);
+  animation-delay:8s;
+}
